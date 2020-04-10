@@ -1,0 +1,165 @@
+@charset 'UTF-8';
+
+/* header
+--------------------------------------------------*/
+header {
+    width: 100%;
+}
+.header_wrap {
+    max-width: 30rem;
+    width: 80em;
+}
+.logo_wrap {
+    width: 22.5rem;
+    height: 22.5rem;
+
+    margin: 0 auto 1.25rem;
+}
+.logo_img {
+    width: 15rem;
+    height: auto;
+}
+.ttl_wrap {
+    height: 9rem;
+    margin-top: 1.2rem;
+}
+h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+.ttl_wrap > p {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+}
+.mail_wrap {
+    margin-top: 2.5rem;
+}
+.mail_icon {
+    width: 5rem;
+    height: auto;
+}
+@media screen and (min-width: 768px ) {
+    header {
+        width: 33rem;
+
+        float: left;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+    .header_wrap {
+        max-width: 25rem;
+    }
+}
+
+/* main
+--------------------------------------------------*/
+main {
+    width: 100%;
+}
+.main_contents {
+    max-width: 30rem;
+    width: 80em;
+}
+@media screen and (min-width: 768px) {
+    main {
+        width: 40rem;
+
+        float: left;
+    }
+    .main_contents {
+        max-width: 40rem;
+    }
+}
+@media screen and (min-width: 1280px)  {
+    main {
+        width: 80rem;
+    }
+    .main_contents {
+        max-width: 80rem;
+    }
+}
+
+/* profile
+--------------------------------------------------*/
+.profile_wrap {
+    width: 22.5rem;
+}
+.name_wrap > p {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+.prof_txt {
+    width: 22.5rem;
+    height: 22.5rem;
+}
+@media screen and (min-width: 768px) {
+    .profile_wrap {
+        width: 30rem;
+    }
+    .name_wrap > p {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .prof_txt {
+        width: 30rem;
+        height: 30rem;
+    }
+}
+
+/* skills & works
+--------------------------------------------------*/
+h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+h3 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+.skills_02, .works_02 {
+    margin-top: 5rem;
+}
+.container_legend {
+    width: 22.5rem;
+    height: 22.5rem;
+}
+@media screen and (min-width: 768px) {
+    .skills_02, .works_02 {
+        margin-top: 7rem;
+    }
+    .container_legend {
+        width: 30rem;
+        height: 30rem;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .container_wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .container {
+        width: 30rem;
+        height: 75rem;
+
+        box-sizing: border-box;
+    }
+    .skills_02, .works_02 {
+        margin-top: 0;
+    }
+}
+
+/* footer
+--------------------------------------------------*/
+footer {
+    margin-bottom: 5rem;
+}
+small {
+    font-size: 1rem;
+    line-height: 1rem;
+}
+.lize_link a img {
+    width: 10rem;
+    height: auto;
+}
